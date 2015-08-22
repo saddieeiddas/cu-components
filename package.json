@@ -1,0 +1,40 @@
+{
+  "name": "cu-components",
+  "version": "0.1.0",
+  "description": "Camelot Unchained Client Library - Components",
+  "license": "MPL-2.0",
+  "main": "lib/main.js",
+  "contributors": [
+    "Mehuge <mehuge@sorcerer.co.uk>"
+  ],
+  "keywords": [
+    "Camelot",
+    "Unchained",
+    "cu",
+    "cu-ui",
+    "cu-components"
+  ],
+  "files": [
+    "lib/",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^1.2.1",
+    "dts-bundle": "^0.3.0",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sequence": "^0.4.1",
+    "gulp-typescript": "^2.8.1",
+    "gulp-watch": "^4.3.5",
+    "merge2": "^0.3.6",
+    "react": "^0.13.3",
+    "typescript": "^1.6.0-dev.20150820"
+  },
+  "typescript": {
+    "definition": "./lib/cu-components.d.ts"
+  }
+}
