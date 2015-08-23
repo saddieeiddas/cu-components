@@ -28,6 +28,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
     "gulp-sequence": "^0.4.1",
+    "gulp-stylus": "^2.0.6",
     "gulp-typescript": "^2.8.1",
     "gulp-watch": "^4.3.5",
     "merge2": "^0.3.6",

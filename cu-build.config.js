@@ -10,6 +10,10 @@ module.exports = {
   type: 'library',
   path: __dirname,
   name: projectName,
+  globs: {
+  	ts: [ './src/ts/**/*.ts', './src/ts/**/*.tsx' ],
+  	styl: [ './src/**/**.styl' ]
+  },
   publish: {
     jsOutput: './lib',
     tsdOutput: './definitions/'
