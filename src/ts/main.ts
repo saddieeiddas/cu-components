@@ -6,21 +6,22 @@
 /// <reference path="../definitions/tsd.d.ts" />
 
 import UnitFrame from './classes/UnitFrame';
-import UnitFrameEffects from './classes/unitframe/Effects';
-import UnitFrameHealthBar from './classes/unitframe/HealthBar';
-import UnitFrameHealthText from './classes/unitframe/HealthText';
-import UnitFrameName from './classes/unitframe/Name';
-import UnitFramePortrait from './classes/unitframe/Portrait';
-import UnitFrameStaminaBar from './classes/unitframe/StaminaBar';
-import UnitFrameStaminaText from './classes/unitframe/StaminaText';
+
+import Effects from './classes/unitframe/Effects';
+import HealthBar from './classes/unitframe/HealthBar';
+import HealthText from './classes/unitframe/HealthText';
+import Name from './classes/unitframe/Name';
+import Portrait from './classes/unitframe/Portrait';
+import StaminaBar from './classes/unitframe/StaminaBar';
+import StaminaText from './classes/unitframe/StaminaText';
 
 export default {
-    UnitFrame, 
-    UnitFrameEffects,
-    UnitFrameHealthBar,
-    UnitFrameHealthText,
-    UnitFrameName,
-    UnitFramePortrait,
-    UnitFrameStaminaBar,
-    UnitFrameStaminaText,
+	UnitFrame,
+	Effects,
+	HealthBar,
+	HealthText,
+	Name,
+	Portrait,
+	StaminaBar,
+	StaminaText
 }

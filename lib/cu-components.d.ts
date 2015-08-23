@@ -3,13 +3,13 @@
 declare module 'cu-components' {
     var _default: {
         UnitFrame: __React.ClassicComponentClass<any>;
-        UnitFrameEffects: __React.ClassicComponentClass<any>;
-        UnitFrameHealthBar: __React.ClassicComponentClass<any>;
-        UnitFrameHealthText: __React.ClassicComponentClass<any>;
-        UnitFrameName: __React.ClassicComponentClass<any>;
-        UnitFramePortrait: __React.ClassicComponentClass<any>;
-        UnitFrameStaminaBar: __React.ClassicComponentClass<any>;
-        UnitFrameStaminaText: __React.ClassicComponentClass<any>;
+        Effects: __React.ClassicComponentClass<any>;
+        HealthBar: __React.ClassicComponentClass<any>;
+        HealthText: __React.ClassicComponentClass<any>;
+        Name: __React.ClassicComponentClass<any>;
+        Portrait: __React.ClassicComponentClass<any>;
+        StaminaBar: __React.ClassicComponentClass<any>;
+        StaminaText: __React.ClassicComponentClass<any>;
     };
     export default _default;
 }
