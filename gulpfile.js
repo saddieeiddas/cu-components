@@ -71,8 +71,19 @@ function styles() {
     .pipe(debug({ 'title': 'output:' }));
 }
 
+function images() {
+  return gulp.src(options.globs.images)
+    .pipe(rename(function (path) {
+      // FIXME: Why do I need this hack?
+      path.dirname = path.dirname.split('\\').slice(1).join('\\');
+      console.log(JSON.stringify(path));
+    }))
+    .pipe(gulp.dest('./lib'))
+    .pipe(debug({ 'title': 'output:' }));
+}
+
 function build(cb) {
-  sequence('styles', 'compileTS', 'bundleDTS')(cb);
+  sequence('images', 'styles', 'compileTS', 'bundleDTS')(cb);
 }
 
 function watchBuild() {
@@ -86,6 +97,7 @@ function clean(cb) {
 
 gulp.task('clean', clean);
 gulp.task('styles', styles);
+gulp.task('images', images);
 gulp.task('compileTS', compileTS);
 gulp.task('bundleDTS', bundleDTS);
 gulp.task('watch', ['clean'], watchBuild);
