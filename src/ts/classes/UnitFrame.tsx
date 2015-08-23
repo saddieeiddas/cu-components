@@ -6,13 +6,13 @@
 import * as React from 'react';
 import { ReactElement } from 'react';
 
-import Portrait from 'unitframe/Portrait';
-import Name from 'unitframe/Name';
-import HealthBar from 'unitframe/HealthBar';
-import HealthText from 'unitframe/HealthText';
-import StaminaBar from 'unitframe/StaminaBar';
-import StaminaText from 'unitframe/StaminaText';
-import Effects from 'unitframe/Effects';
+import Portrait from './unitframe/Portrait';
+import Name from './unitframe/Name';
+import HealthBar from './unitframe/HealthBar';
+import HealthText from './unitframe/HealthText';
+import StaminaBar from './unitframe/StaminaBar';
+import StaminaText from './unitframe/StaminaText';
+import Effects from './unitframe/Effects';
 
 const UnitFrame = React.createClass<any, any>({
     getInitialState: function() {
