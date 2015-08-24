@@ -37,5 +37,19 @@
   },
   "typescript": {
     "definition": "./lib/cu-components.d.ts"
+  },
+  "resources": {
+    "$base": "lib",
+    "unitframe": {
+      "images": [ "lib/classes/unitframe/images/*.png" ],
+      "styles": [ "lib/classes/unitframe.css" ],
+      "portrait": {
+        "images": [ "lib/classes/unitframe/images/portrait/*.png" ],
+        "styles": [ "lib/classes/unitframe/portrait.css"]
+      },
+      "$refs": [ "shared "]
+    },
+    "shared": {
+    }
   }
 }
