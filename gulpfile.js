@@ -65,7 +65,6 @@ function styles() {
     .pipe(rename(function (path) {
       // FIXME: Why do I need this hack?
       path.dirname = path.dirname.split('\\').slice(1).join('\\');
-      console.log(JSON.stringify(path));
     }))
     .pipe(gulp.dest('./lib'))
     .pipe(debug({ 'title': 'output:' }));
@@ -76,7 +75,6 @@ function images() {
     .pipe(rename(function (path) {
       // FIXME: Why do I need this hack?
       path.dirname = path.dirname.split('\\').slice(1).join('\\');
-      console.log(JSON.stringify(path));
     }))
     .pipe(gulp.dest('./lib'))
     .pipe(debug({ 'title': 'output:' }));
