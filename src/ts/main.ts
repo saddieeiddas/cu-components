@@ -15,7 +15,7 @@ import Portrait from './classes/unitframe/Portrait';
 import StaminaBar from './classes/unitframe/StaminaBar';
 import StaminaText from './classes/unitframe/StaminaText';
 
-export default {
+export {
 	UnitFrame,
 	Effects,
 	HealthBar,
