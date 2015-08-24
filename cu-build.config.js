@@ -11,9 +11,9 @@ module.exports = {
   path: __dirname,
   name: projectName,
   globs: {
-  	ts: [ './src/ts/**/*.ts', './src/ts/**/*.tsx' ],
-  	styl: [ './src/**/**.styl' ],
-    images: [ './src/**/**.png' ]
+    ts: [ './src/ts/**/*.ts', './src/ts/**/*.tsx' ],
+    styl: [ './src/**/**.styl' ],
+    images: [ './src/**/*.png', './src/**/*.jpg' ]
   },
   publish: {
     jsOutput: './lib',
