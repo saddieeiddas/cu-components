@@ -36,7 +36,7 @@ const UnitFrame = React.createClass<any, any>({
         const staminaWidth = this.props.maxStamina ? (this.props.stamina / this.props.maxStamina) * this.state.staminaWidth : 0;
 
         // If this unit frame includes a race (name) display a portrait.
-        if (this.props.race) {
+        if (this.props.race !== undefined) {
             portrait = <Portrait race={this.props.race}/>;
         }
 
