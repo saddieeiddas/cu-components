@@ -9,14 +9,14 @@
  * and other stuff are inherited from unitframe.css
 */
 #unitframe {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/bg.png") no-repeat top left;
+  background: transparent url("unitframe/images/character/bg.png") no-repeat top left;
   width: 217px;
   height: 76px;
   visibility: visible; /* always visible! */
 }
 #unitframe:after {
   top: 0;
-  content: url("../../lib/cu-components/unitframe/images/character/frame.png");
+  content: url("unitframe/images/character/frame.png");
   z-index: auto;
 }
 #portrait {
@@ -28,49 +28,49 @@
   background: transparent url("") no-repeat top left;
 }
 #portrait.hamadryad {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/hamadryad.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/hamadryad.jpg") no-repeat top left;
 }
 #portrait.luchorpan {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/luchorpan.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/luchorpan.jpg") no-repeat top left;
 }
 #portrait.firbog {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/firbog.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/firbog.jpg") no-repeat top left;
 }
 #portrait.valkyrie {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/valkyrie.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/valkyrie.jpg") no-repeat top left;
 }
 #portrait.helbound {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/helbound.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/helbound.jpg") no-repeat top left;
 }
 #portrait.frostgiant {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/frostgiant.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/frostgiant.jpg") no-repeat top left;
 }
 #portrait.strm {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/strm.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/strm.jpg") no-repeat top left;
 }
 #portrait.caitsith {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/caitsith.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/caitsith.jpg") no-repeat top left;
 }
 #portrait.golem {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/golem.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/golem.jpg") no-repeat top left;
 }
 #portrait.stormridert {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/stormridert.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/stormridert.jpg") no-repeat top left;
 }
 #portrait.stormridera {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/stormridera.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/stormridera.jpg") no-repeat top left;
 }
 #portrait.stormriderv {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/stormriderv.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/stormriderv.jpg") no-repeat top left;
 }
 #portrait.humanmalev {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/humanmalev.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/humanmalev.jpg") no-repeat top left;
 }
 #portrait.humanmalea {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/humanmalea.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/humanmalea.jpg") no-repeat top left;
 }
 #portrait.humanmalet {
-  background: transparent url("../../lib/cu-components/unitframe/images/character/portraits/humanmalet.jpg") no-repeat top left;
+  background: transparent url("unitframe/images/character/portraits/humanmalet.jpg") no-repeat top left;
 }
 #name {
   top: 8px;
@@ -85,7 +85,7 @@
   top: 30px;
   left: 61px;
   height: 26px;
-  background: transparent url("../../lib/cu-components/unitframe/images/character/health-bar.png") no-repeat top left;
+  background: transparent url("unitframe/images/character/health-bar.png") no-repeat top left;
 }
 #health-text {
   top: 30px;
@@ -98,7 +98,7 @@
   top: 56px;
   left: 61px;
   height: 11px;
-  background: transparent url("../../lib/cu-components/unitframe/images/character/stamina-bar.png") no-repeat top left;
+  background: transparent url("unitframe/images/character/stamina-bar.png") no-repeat top left;
 }
 #stamina-text {
   top: 56px;
