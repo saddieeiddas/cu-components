@@ -4,19 +4,20 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-var projectName = 'cu-components';
+var name = 'cu-components';
 
 module.exports = {
   type: 'library',
   path: __dirname,
-  name: projectName,
-  globs: {
-    ts: [ './src/ts/**/*.ts', './src/ts/**/*.tsx' ],
-    styl: [ './src/**/**.styl' ],
-    images: [ './src/**/*.png', './src/**/*.jpg' ]
+  name: name,
+  lib: {
+    sass: true,
+    sass_base: '',
+    sass_dest: '',
+    copy: ['src/**/!(*.js|*.jsx|*.ts|*.tsx|*.ui|*.styl)'],
   },
-  publish: {
-    jsOutput: './lib',
-    tsdOutput: './definitions/'
+  bundle: {
+    sass_base: '',
+    sass_dest: '',
   },
 };
