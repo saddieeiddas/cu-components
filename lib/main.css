@@ -1,0 +1,212 @@
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+@import url(../fonts/fonts.css);
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+#unitframe {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 168px;
+  height: 125px;
+  background: transparent url("../images/target/bg.png") no-repeat 0 12px; }
+
+#unitframe:after {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  content: url("../images/target/frame.png");
+  z-index: -1; }
+
+#name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 164px;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 4px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 11px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0 3px #000, 0 0 3px #000, 0 0 3px #000, 0 0 3px #000; }
+
+#health-bar {
+  position: absolute;
+  top: 22px;
+  left: 3px;
+  width: 154px;
+  height: 17px;
+  background: transparent url("../images/target/health-bar.png") no-repeat top left; }
+
+#health-text {
+  position: absolute;
+  top: 22px;
+  left: 3px;
+  width: 154px;
+  height: 17px;
+  line-height: 17px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0 3px #000, 0 0 3px #000, 0 0 3px #000, 0 0 3px #000; }
+
+#stamina-bar {
+  position: absolute;
+  top: 41px;
+  left: 3px;
+  width: 154px;
+  height: 11px;
+  background: transparent url("../images/target/stamina-bar.png") no-repeat top left; }
+
+#stamina-text {
+  position: absolute;
+  top: 41px;
+  left: 3px;
+  width: 154px;
+  height: 11px;
+  line-height: 11px;
+  color: #a3eef9;
+  font-family: Arial, sans-serif;
+  font-size: 8px;
+  text-align: center;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0 3px #000, 0 0 3px #000, 0 0 3px #000, 0 0 3px #000; }
+
+#effects {
+  position: absolute;
+  top: 60px;
+  left: 3px;
+  width: 168px; }
+
+.effect-icon {
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin: 0 3px 3px 0; }
+
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+/*
+ * These styles overide the cbase unitframe.css styles defined by
+ * ../cu-lib/views/unitframe.css.  For the most part this means
+ * different position and sizes of the bars, and different artwork
+ * for the frame and bars.  And some different colours.  The fonts
+ * and other stuff are inherited from unitframe.css
+*/
+#unitframe {
+  background: transparent url("../images/character/bg.png") no-repeat top left;
+  width: 217px;
+  height: 76px;
+  visibility: visible;
+  /* always visible! */ }
+
+#unitframe:after {
+  top: 0;
+  content: url("../images/character/frame.png");
+  z-index: auto; }
+
+#portrait {
+  position: absolute;
+  top: 8px;
+  left: 2px;
+  width: 59px;
+  height: 59px;
+  background: transparent url() no-repeat top left; }
+
+#portrait.hamadryad {
+  background: transparent url("../images/character/portraits/hamadryad.jpg") no-repeat top left; }
+
+#portrait.luchorpan {
+  background: transparent url("../images/character/portraits/luchorpan.jpg") no-repeat top left; }
+
+#portrait.firbog {
+  background: transparent url("../images/character/portraits/firbog.jpg") no-repeat top left; }
+
+#portrait.valkyrie {
+  background: transparent url("../images/character/portraits/valkyrie.jpg") no-repeat top left; }
+
+#portrait.helbound {
+  background: transparent url("../images/character/portraits/helbound.jpg") no-repeat top left; }
+
+#portrait.frostgiant {
+  background: transparent url("../images/character/portraits/frostgiant.jpg") no-repeat top left; }
+
+#portrait.strm {
+  background: transparent url("../images/character/portraits/strm.jpg") no-repeat top left; }
+
+#portrait.caitsith {
+  background: transparent url("../images/character/portraits/caitsith.jpg") no-repeat top left; }
+
+#portrait.golem {
+  background: transparent url("../images/character/portraits/golem.jpg") no-repeat top left; }
+
+#portrait.stormridert {
+  background: transparent url("../images/character/portraits/stormridert.jpg") no-repeat top left; }
+
+#portrait.stormridera {
+  background: transparent url("../images/character/portraits/stormridera.jpg") no-repeat top left; }
+
+#portrait.stormriderv {
+  background: transparent url("../images/character/portraits/stormriderv.jpg") no-repeat top left; }
+
+#portrait.humanmalev {
+  background: transparent url("images/character/portraits/humanmalev.jpg") no-repeat top left; }
+
+#portrait.humanmalea {
+  background: transparent url("images/character/portraits/humanmalea.jpg") no-repeat top left; }
+
+#portrait.humanmalet {
+  background: transparent url("images/character/portraits/humanmalet.jpg") no-repeat top left; }
+
+#name {
+  top: 8px;
+  left: 61px;
+  width: 165px;
+  height: 21px;
+  line-height: 21px;
+  padding-left: 5px;
+  color: #efefef; }
+
+#health-bar {
+  top: 30px;
+  left: 61px;
+  height: 26px;
+  background: transparent url("../images/character/health-bar.png") no-repeat top left; }
+
+#health-text {
+  top: 30px;
+  left: 61px;
+  height: 26px;
+  line-height: 26px;
+  color: #fff; }
+
+#stamina-bar {
+  top: 56px;
+  left: 61px;
+  height: 11px;
+  background: transparent url("../images/character/stamina-bar.png") no-repeat top left; }
+
+#stamina-text {
+  top: 56px;
+  left: 61px; }
+
+#effects {
+  top: 72px;
+  left: 15px;
+  width: 224px; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaXRmcmFtZS9zdHlsZXMvX1VuaXRGcmFtZS5zY3NzIiwidW5pdGZyYW1lL3N0eWxlcy9fVW5pdEZyYW1lLUNoYXJhY3Rlci5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7O0dBSUc7QUFFSCxPQUFPLENBQUMsdUJBQW9CO0FBRXRCLElBQUksRUFBRSxJQUFJLENBQUw7RUFDVCxNQUFNLEVBQUUsQ0FBRTtFQUNWLE9BQU8sRUFBRSxDQUFFO0VBQ1gsUUFBUSxFQUFFLE1BQU8sR0FIUDs7QUFNWixVQUFVLENBQUM7RUFDVCxVQUFVLEVBQUUsTUFBTztFQUNuQixRQUFRLEVBQUUsUUFBUztFQUNuQixHQUFHLEVBQUUsQ0FBRTtFQUNQLElBQUksRUFBRSxDQUFFO0VBQ1IsS0FBSyxFQUFFLEtBQU07RUFDYixNQUFNLEVBQUUsS0FBTTtFQUNkLFVBQVUsRUFBRSxXQUFXLENBQUMsOEJBQUcsQ0FBNEIsU0FBUyxDQUFDLENBQUMsQ0FBQyxJQUFJLEdBUDdEOztBQVVGLFVBQVUsTUFBTSxDQUFUO0VBQ2YsUUFBUSxFQUFFLFFBQVM7RUFDbkIsR0FBRyxFQUFFLElBQUs7RUFDVixJQUFJLEVBQUUsQ0FBRTtFQUNSLE9BQU8sRUFBRSxpQ0FBRztFQUNaLE9BQU8sRUFBRSxFQUFHLEdBTEk7O0FBUWxCLEtBQUssQ0FBQztFQUNKLFFBQVEsRUFBRSxRQUFTO0VBQ25CLEdBQUcsRUFBRSxDQUFFO0VBQ1AsSUFBSSxFQUFFLENBQUU7RUFDUixLQUFLLEVBQUUsS0FBTTtFQUNiLE1BQU0sRUFBRSxJQUFLO0VBQ2IsV0FBVyxFQUFFLElBQUs7RUFDbEIsWUFBWSxFQUFFLEdBQUk7RUFDbEIsV0FBVyxFQUFFLCtCQUFnQztFQUM3QyxTQUFTLEVBQUUsSUFBSztFQUNoQixVQUFVLEVBQUUsSUFBSztFQUNqQixRQUFRLEVBQUUsTUFBTztFQUNqQixhQUFhLEVBQUUsUUFBUztFQUN4QixXQUFXLEVBQUUsTUFBTztFQUNwQixXQUFXLEVBQUcsSUFBRyxDQUFD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QyxTQUFTLENBQUMsR0FBRyxDQUFDLElBQUksR0FEekU7O0FBR2QsU0FBUyxTQUFTLENBQUw7RUFDbEIsVUFBVSxFQUFFLFdBQVcsQ0FBQyxpREFBRyxDQUErQyxTQUFTLENBQUMsR0FBRyxDQUFDLElBQUksR0FEekU7O0FBR2QsU0FBUyxXQUFXLENBQVA7RUFDbEIsVUFBVSxFQUFFLFdBQVcsQ0FBQyxtREFBRyxDQUFpRCxTQUFTLENBQUMsR0FBRyxDQUFDLElBQUksR0FEM0U7O0FBR2QsU0FBUyxLQUFLLENBQUQ7RUFDbEIsVUFBVSxFQUFFLFdBQVcsQ0FBQyw2Q0FBRyxDQUEyQyxTQUFTLENBQUMsR0FBRyxDQUFDLElBQUksR0FEckU7O0FBR2QsU0FBUyxTQUFTLENBQUw7RUFDbEIsVUFBVSxFQUFFLFdBQVcsQ0FBQyxpREFBRyxDQUErQyxTQUFTLENBQUMsR0FBRyxDQUFDLElBQUksR0FEekU7O0FBR2QsU0FBUyxNQUFNLENBQUY7RUFDbEIsVUFBVSxFQUFFLFdBQVcsQ0FBQyw4Q0FBRyxDQUE0QyxTQUFTLENBQUMsR0FBRyxDQUFDLElBQUksR0FEdEU7O0FBR2QsU0FBUyxZQUFZLENBQVI7RUFDbEIsVUFBVSxFQUFFLFdBQVcsQ0FBQyxvREFBRyxDQUFrRCxTQUFTLENBQUMsR0FBRyxDQUFDLElBQUksR0FENUU7O0FBR2QsU0FBUyxZQUFZLENBQVI7RUFDbEIsVUFBVSxFQUFFLFdBQVcsQ0FBQyxvREFBRyxDQUFrRCxTQUFTLENBQUMsR0FBRyxDQUFDLElBQUksR0FENUU7O0FBR2QsU0FBUyxZQUFZLENBQVI7RUFDbEIsVUFBVSxFQUFFLFdBQVcsQ0FBQyxvREFBRyxDQUFrRCxTQUFTLENBQUMsR0FBRyxDQUFDLElBQUksR0FENUU7O0FBR2QsU0FBUyxXQUFXLENBQVA7RUFDbEIsVUFBVSxFQUFFLFdBQVcsQ0FBQyxnREFBRyxDQUE4QyxTQUFTLENBQUMsR0FBRyxDQUFDLElBQUksR0FEeEU7O0FBR2QsU0FBUyxXQUFXLENBQVA7RUFDbEIsVUFBVSxFQUFFLFdBQVcsQ0FBQyxnREFBRyxDQUE4QyxTQUFTLENBQUMsR0FBRyxDQUFDLElBQUksR0FEeEU7O0FBR2QsU0FBUyxXQUFXLENBQVA7RUFDbEIsVUFBVSxFQUFFLFdBQVcsQ0FBQyxnREFBRyxDQUE4QyxTQUFTLENBQUMsR0FBRyxDQUFDLElBQUksR0FEeEU7O0FBSXZCLEtBQUssQ0FBQztFQUNGLEdBQUcsRUFBRSxHQUFJO0VBQ1QsSUFBSSxFQUFFLElBQUs7RUFDWCxLQUFLLEVBQUUsS0FBTTtFQUNiLE1BQU0sRUFBRSxJQUFLO0VBQ2IsV0FBVyxFQUFFLElBQUs7RUFDbEIsWUFBWSxFQUFFLEdBQUk7RUFDbEIsS0FBSyxFQUFFLE9BQVEsR0FQWjs7QUFVUCxXQUFXLENBQUM7RUFDUixHQUFHLEVBQUUsSUFBSztFQUNWLElBQUksRUFBRSxJQUFLO0VBQ1gsTUFBTSxFQUFFLElBQUs7RUFDYixVQUFVLEVBQUUsV0FBVyxDQUFDLHlDQUFHLENBQXVDLFNBQVMsQ0FBQyxHQUFHLENBQUMsSUFBSSxHQUozRTs7QUFPYixZQUFZLENBQUM7RUFDVCxHQUFHLEVBQUUsSUFBSztFQUNWLElBQUksRUFBRSxJQUFLO0VBQ1gsTUFBTSxFQUFFLElBQUs7RUFDYixXQUFXLEVBQUUsSUFBSztFQUNsQixLQUFLLEVBQUUsSUFBSyxHQUxGOztBQVFkLFlBQVksQ0FBQztFQUNULEdBQUcsRUFBRSxJQUFLO0VBQ1YsSUFBSSxFQUFFLElBQUs7RUFDWCxNQUFNLEVBQUUsSUFBSztFQUNiLFVBQVUsRUFBRSxXQUFXLENBQUMsMENBQUcsQ0FBd0MsU0FBUyxDQUFDLEdBQUcsQ0FBQyxJQUFJLEdBSjNFOztBQU9kLGFBQWEsQ0FBQztFQUNWLEdBQUcsRUFBRSxJQUFLO0VBQ1YsSUFBSSxFQUFFLElBQUssR0FGQTs7QUFLZixRQUFRLENBQUM7RUFDTCxHQUFHLEVBQUUsSUFBSztFQUNWLElBQUksRUFBRSxJQUFLO0VBQ1gsS0FBSyxFQUFFLEtBQU0sR0FIUCIsImZpbGUiOiJtYWluLmNzcyIsInNvdXJjZXNDb250ZW50IjpbbnVsbCxudWxsXSwic291cmNlUm9vdCI6Ii4uLyJ9 */

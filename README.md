@@ -1,5 +1,6 @@
 cu-components
-======================
+=============
+
 > Camelot Unchained Client Library - Components
 
 ---
