@@ -14,7 +14,7 @@ module.exports = {
     sass: true,
     sass_base: '',
     sass_dest: '',
-    copy: ['src/**/!(*.js|*.jsx|*.ts|*.tsx|*.ui|*.styl)'],
+    copy: true,
   },
   bundle: {
     sass_base: '',
