@@ -44,7 +44,7 @@ const UnitFrame = React.createClass<any, any>({
     // If the unit frame has an active target, make sure it is visible.
     // By default Target Unit Frames are not visible (see styles)
     if (this.props.name) {
-        visible = { visibility: 'visible' };
+      visible = { visibility: 'visible' };
     }
 
     // Render the unit frame

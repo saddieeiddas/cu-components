@@ -3,14 +3,17 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
+
 import * as React from 'react';
+
 const StaminaText = React.createClass<any, any>({
-	render: function() {
-		var text = '';
-		if (this.props.maxStamina) {
-			text = this.props.stamina + '/' + this.props.maxStamina;
-		}
-		return (<div ref="text" id="stamina-text">{text}</div>);
-	}
+  render: function() {
+    var text = '';
+    if (this.props.maxStamina) {
+      text = this.props.stamina + '/' + this.props.maxStamina;
+    }
+    return (<div ref="text" id="stamina-text">{text}</div>);
+  }
 });
+
 export default StaminaText;

@@ -32,16 +32,7 @@
     <TypeScriptCompile Include="src\main.bundle.ts"/>
     <Content Include="src\main.scss"/>
     <TypeScriptCompile Include="src\main.ts"/>
-    <Content Include="src\fonts\fonts.scss"/>
-    <TypeScriptCompile Include="src\unitframe\unitframe.bundle.ts"/>
-    <Content Include="src\unitframe\unitframe.scss"/>
     <TypeScriptCompile Include="src\unitframe\UnitFrame.tsx"/>
-    <Content Include="src\unitframe\images\bg.png"/>
-    <Content Include="src\unitframe\images\energy-bar.png"/>
-    <Content Include="src\unitframe\images\frame.png"/>
-    <Content Include="src\unitframe\images\health-bar.png"/>
-    <Content Include="src\unitframe\images\stamina-bar.png"/>
-    <Content Include="src\unitframe\images\target_plate.png"/>
     <TypeScriptCompile Include="src\unitframe\components\Effects.tsx"/>
     <TypeScriptCompile Include="src\unitframe\components\HealthBar.tsx"/>
     <TypeScriptCompile Include="src\unitframe\components\HealthText.tsx"/>
@@ -49,7 +40,15 @@
     <TypeScriptCompile Include="src\unitframe\components\Portrait.tsx"/>
     <TypeScriptCompile Include="src\unitframe\components\StaminaBar.tsx"/>
     <TypeScriptCompile Include="src\unitframe\components\StaminaText.tsx"/>
+    <Content Include="src\unitframe\images\bg.png"/>
+    <Content Include="src\unitframe\images\energy-bar.png"/>
+    <Content Include="src\unitframe\images\frame.png"/>
+    <Content Include="src\unitframe\images\health-bar.png"/>
+    <Content Include="src\unitframe\images\stamina-bar.png"/>
+    <Content Include="src\unitframe\images\target_plate.png"/>
     <Content Include="src\unitframe\styles\_UnitFrame.scss"/>
+    <Content Include="src\unitframe\unitframe.bundle.scss"/>
+    <TypeScriptCompile Include="src\unitframe\unitframe.bundle.ts"/>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
