@@ -20,6 +20,10 @@
     "README.md",
     "LICENSE"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CUModSquad/cu-components.git"
+  },
   "dependencies": {
     "react": "^0.13.3",
     "reflux-tsd": "git+https://github.com/saddieeiddas/reflux-tsd.git#master",
