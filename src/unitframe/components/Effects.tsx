@@ -3,10 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
+
 import * as React from 'react';
-const Effects = React.createClass<any,any>({
-	render: function() {
-		return (<div id="effects"></div>);
-	}
+
+const Effects = React.createClass<any, any>({
+  render: function() {
+    return (<div id="effects"></div>);
+  }
 });
+
 export default Effects;
