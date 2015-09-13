@@ -41,11 +41,9 @@
     <TypeScriptCompile Include="src\unitframe\components\StaminaBar.tsx"/>
     <TypeScriptCompile Include="src\unitframe\components\StaminaText.tsx"/>
     <Content Include="src\unitframe\images\bg.png"/>
-    <Content Include="src\unitframe\images\energy-bar.png"/>
     <Content Include="src\unitframe\images\frame.png"/>
     <Content Include="src\unitframe\images\health-bar.png"/>
     <Content Include="src\unitframe\images\stamina-bar.png"/>
-    <Content Include="src\unitframe\images\target_plate.png"/>
     <Content Include="src\unitframe\styles\_UnitFrame.scss"/>
     <Content Include="src\unitframe\unitframe.bundle.scss"/>
     <TypeScriptCompile Include="src\unitframe\unitframe.bundle.ts"/>
